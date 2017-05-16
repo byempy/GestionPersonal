@@ -23,7 +23,7 @@ public class controlador {
 	
 	public static void BorrarEmpleado(Empleado emp){
 		ListaEmpleados.remove(emp);
-		indice--;
+		indice=0;
 	}
 	
 	public static Empleado ObtenerEmpleado(int indice){
